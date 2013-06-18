@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    div#container
+        p #{description}
+
+        textarea#code
+        button#submit #{button_text}
+        br
+        span#responseLabel
+        textarea#response(disabled)
+        span#download #{download_label}
+

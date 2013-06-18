@@ -1,0 +1,8 @@
+body { padding: 50px; font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+a { color: #00B7FF; }
+
+#container, body { padding: 0; margin: 0; }
+#container { width: 400px; margin: 0 auto; }
+
+#code, #response { width: 380px; min-height: 100px; }
+button { position: relative; }
